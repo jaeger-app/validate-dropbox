@@ -71,6 +71,3 @@ class ConnectTest extends \PHPUnit_Framework_TestCase
         return include 'data/dropboxcreds.config.php';
     }
 }
-
-$rule = new Connect;
-\JaegerApp\Validate::addrule($rule->getName(), array($rule, 'validate'), $rule->getErrorMessage());

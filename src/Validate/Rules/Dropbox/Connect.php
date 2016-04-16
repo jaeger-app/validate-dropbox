@@ -75,3 +75,6 @@ class Connect extends AbstractRule
         }
     }
 }
+
+$rule = new Connect;
+\JaegerApp\Validate::addrule($rule->getName(), array($rule, 'validate'), $rule->getErrorMessage());
