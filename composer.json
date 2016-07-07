@@ -19,7 +19,7 @@
 			"JaegerApp\\": "src"
 		},
 		"files": [
-			"src/Validate/Rules/Dropbox/Connect.php", 
+			"src/Validate/Rules/Dropbox/Connect.php"
 		] 		
 	},
 	"license": "MIT"
