@@ -17,7 +17,10 @@
 	"autoload": {
 		"psr-4": {
 			"JaegerApp\\": "src"
-		}
+		},
+		"files": [
+			"src/Validate/Rules/Dropbox/Connect.php", 
+		] 		
 	},
 	"license": "MIT"
 }
